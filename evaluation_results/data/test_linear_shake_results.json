@@ -1,0 +1,23 @@
+{
+  "video_name": "test_linear_shake",
+  "input_path": "evaluation_results\\videos\\test_linear_shake.mp4",
+  "output_path": "evaluation_results\\videos\\test_linear_shake_stabilized.mp4",
+  "stabilization_time": 208.4448733329773,
+  "stabilizer_config": {
+    "mesh_rows": 16,
+    "mesh_cols": 16,
+    "temporal_smooth_radius": 10
+  },
+  "total_frames": 120,
+  "processing_time": 208.416663646698,
+  "average_fps": 0.5757697004660846,
+  "average_frame_time": 1.6953494211037954,
+  "average_stability_score": 0.9095089291971591,
+  "average_motion_magnitude": 2.518345594406128,
+  "stability_improvement_percent": 6.083860235846713,
+  "motion_reduction_percent": 0.31090343836694956,
+  "original_avg_frame_diff": 3.4509024312850136,
+  "stabilized_avg_frame_diff": 3.240954350490197,
+  "original_avg_motion": 403.0356750488281,
+  "stabilized_avg_motion": 401.7826232910156
+}

@@ -1,0 +1,23 @@
+{
+  "video_name": "test_random_jitter",
+  "input_path": "evaluation_results\\videos\\test_random_jitter.mp4",
+  "output_path": "evaluation_results\\videos\\test_random_jitter_stabilized.mp4",
+  "stabilization_time": 202.02166175842285,
+  "stabilizer_config": {
+    "mesh_rows": 16,
+    "mesh_cols": 16,
+    "temporal_smooth_radius": 10
+  },
+  "total_frames": 120,
+  "processing_time": 202.0002191066742,
+  "average_fps": 0.5940587615730717,
+  "average_frame_time": 1.6551571508248648,
+  "average_stability_score": 0.8230465939358648,
+  "average_motion_magnitude": 19.448450088500977,
+  "stability_improvement_percent": 4.606868164865883,
+  "motion_reduction_percent": 0.1883248332887888,
+  "original_avg_frame_diff": 8.620996203168767,
+  "stabilized_avg_frame_diff": 8.223838273590689,
+  "original_avg_motion": 402.7043762207031,
+  "stabilized_avg_motion": 401.94598388671875
+}

@@ -1,0 +1,23 @@
+{
+  "video_name": "test_circular_motion",
+  "input_path": "evaluation_results\\videos\\test_circular_motion.mp4",
+  "output_path": "evaluation_results\\videos\\test_circular_motion_stabilized.mp4",
+  "stabilization_time": 207.02776455879211,
+  "stabilizer_config": {
+    "mesh_rows": 16,
+    "mesh_cols": 16,
+    "temporal_smooth_radius": 10
+  },
+  "total_frames": 120,
+  "processing_time": 207.00280857086182,
+  "average_fps": 0.5797022795413969,
+  "average_frame_time": 1.6995723386605581,
+  "average_stability_score": 0.8379624613671588,
+  "average_motion_magnitude": 1.9904628992080688,
+  "stability_improvement_percent": 12.27106620057164,
+  "motion_reduction_percent": 0.43387399055063725,
+  "original_avg_frame_diff": 4.795172033657215,
+  "stabilized_avg_frame_diff": 4.2067532989758405,
+  "original_avg_motion": 408.9488220214844,
+  "stabilized_avg_motion": 407.17449951171875
+}
